@@ -1,0 +1,52 @@
+
+.fade-in-image{
+    display: flex;
+    justify-content: center;
+    width:100px;
+    height:35px;
+    background-color:rgba(0, 0, 10, 0.4);
+    border-radius: 100px;
+    animation: fadeIn 3s;
+    text-align: center;}
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    float: right;
+    padding-right: 55px;
+    padding-top: 50px;
+    padding-left: 1px;
+}
+.container2 > nav {
+    padding-right: px;
+    padding-top: 55px;
+    float: right;
+}
+
+.logo {
+    float: left;
+    padding-left: 55px;
+    padding-top: 35px;
+}
+
+
+
+
+.container2 > nav > a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
+}
