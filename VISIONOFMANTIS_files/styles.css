@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+.fade-in-image{
+    background-color:rgba(0, 0, 10, 0.4);
+    animation: fadeIn 3s;
+ }
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+
+.maincontainer {
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50px;}
+
+
+
+
+
+
+
+.navlogo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
